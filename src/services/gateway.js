@@ -40,7 +40,7 @@ module.exports = function createGateway(publicUrl, authorisedUrl) {
     }
   });
 
-  router.get(`/${gateway.endpoint}`, proxy({ url: authorisedUrl }));
+  router.get(`/${gateway.endpoint}`, proxy({ url: authorisedUrl, suppressRequestHeaders: ['authorization'] }));
 
   app.use(router.allowedMethods());
   app.use(router.routes());
