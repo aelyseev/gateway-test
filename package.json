@@ -2,7 +2,6 @@
   "name": "jwt-gateway-demo",
   "version": "1.0.0",
   "description": "Simple gateway with jwt support",
-  "main": "src/app.old.js",
   "scripts": {
     "start": "SETTINGS=app.dev.yml node src/app.js",
     "dev": "SETTINGS=app.dev.yml nodemon src/app.js",
