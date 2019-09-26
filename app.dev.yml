@@ -1,0 +1,15 @@
+---
+services:
+  hello:
+    port: 3010
+    endpoint: hello
+  greeting:
+    port: 3020
+    endpoint: hello
+gateway:
+  port: 3000
+  endpoint: hello
+  auth: auth
+authentication:
+  accessTokenExpiration: 12000000
+  secret: secret key
