@@ -16,7 +16,7 @@ npm start
 
 or via Docker
 ```
-docker build -t app/gateway
+docker build -t app/gateway .
 docker run -p 3000:3000 -d app/gateway
 ```
 
