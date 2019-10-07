@@ -15,7 +15,7 @@
       "eslint"
     ]
   },
-  "author": "Aleksey Elyseeb <aelyseev@gmail.com",
+  "author": "Aleksey Elyseev <aelyseev@gmail.com",
   "license": "MIT",
   "dependencies": {
     "jsonwebtoken": "^8.5.1",
