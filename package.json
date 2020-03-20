@@ -7,8 +7,7 @@
     "dev": "SETTINGS=app.dev.yml nodemon src/app.js",
     "test": "SETTINGS=app.test.yml ava",
     "lint": "eslint src",
-    "precommit": "lint-staged",
-    "test2": "ava"
+    "precommit": "lint-staged"
   },
   "lint-staged": {
     "*.js": [
@@ -27,14 +26,14 @@
     "yaml": "^1.7.0"
   },
   "devDependencies": {
-    "ava": "^2.4.0",
+    "ava": "3.5.0",
     "eslint": "^6.4.0",
     "eslint-config-airbnb-base": "^14.0.0",
     "eslint-config-prettier": "^6.3.0",
     "eslint-plugin-import": "^2.18.2",
     "husky": "^3.0.5",
     "lint-staged": "^9.3.0",
-    "nodemon": "^1.19.2",
+    "nodemon": "2.0.2",
     "supertest-koa-agent": "^0.3.0",
     "test-listen": "^1.1.0"
   },
@@ -54,8 +53,6 @@
   "ava": {
     "files": [
       "src/**/*.spec.js"
-    ],
-    "babel": false,
-    "compileEnhancements": false
+    ]
   }
 }
