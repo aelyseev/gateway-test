@@ -17,7 +17,7 @@
   "author": "Aleksey Elyseev <aelyseev@gmail.com",
   "license": "MIT",
   "dependencies": {
-    "jsonwebtoken": "^8.5.1",
+    "jsonwebtoken": "^9.0.0",
     "koa": "^2.8.1",
     "koa-bodyparser": "^4.2.1",
     "koa-jwt": "^3.6.0",
